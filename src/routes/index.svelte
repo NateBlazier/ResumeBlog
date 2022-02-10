@@ -19,7 +19,7 @@
 			</picture>
 		</div>
 
-		to your new<br />SvelteKit app
+		"I will try to fill in the knowledge gaps to have you on your way. "
 	</h1>
 
 
@@ -28,9 +28,6 @@
 
 
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
 
 	<Counter />
 
@@ -39,10 +36,9 @@
 	<div class="grid-container">
 		<a class="card clickable" href="/blog-development-sveltekit">
 			<div class="image">
-				<picture class="svelte-1gy5t1o">
-						<img src="https://wallpapercave.com/wp/wp7250087.jpg" alt="Cover Image" loading="lazy" decoding="async" class="svelte-1gy5t1o"> 
-				</picture>
 				
+						<img src="https://wallpapercave.com/wp/wp7250087.jpg" alt="Cover Image" loading="lazy" decoding="async" class="picture"> 
+			</div>
 				<div class="body">
 					<div class="content">
 						<div class="content">
@@ -60,19 +56,15 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			
 		</a>
-	
 
 
 		<a class="card clickable" href="/blog-development-sveltekit">
 			<div class="image">
-				<picture class="svelte-1gy5t1o">
-					<source srcset="/optimized-images/posts/blog-development-sveltekit/cover.avif" type="image/avif"> 
-					<source srcset="/optimized-images/posts/blog-development-sveltekit/cover.webp" type="image/webp"> 
-						<img src="/optimized-images/posts/blog-development-sveltekit/cover.png" alt="Cover Image" loading="lazy" decoding="async" class="svelte-1gy5t1o"> 
-				</picture>
 				
+						<img src="https://wallpapercave.com/wp/wp7250087.jpg" alt="Cover Image" loading="lazy" decoding="async" class="picture"> 
+			</div>
 				<div class="body">
 					<div class="content">
 						<div class="content">
@@ -90,8 +82,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			
 		</a>
+	
+
+
+		
+
+		
 	</div>
 
 
@@ -104,8 +102,14 @@
 
 
 <style>
+
+.picture{
+	width: 100%;
+    height: 100%;
+}
+
 	section {
-		grid-column: span 3;
+		grid-column: span 10;
 	}
 
 	h1 {
@@ -130,7 +134,7 @@
 	.grid-container {
 		width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     grid-column: span 3;
 }
