@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
+	import logo from './YoungNate.png';
 </script>
 
 <header>
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
+		<!-- <a href="/">
+			<img src={logo} alt="SvelteKit" /> 
+			<div>Nate Blazier</div> 
+		</a> -->
 	</div>
 
 	<nav>
@@ -15,13 +16,16 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/resume'}>
-				<a sveltekit:prefetch href="/resume">Resume</a>
+			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Resume</a></li>
+
+			<li class:active={$page.url.pathname === '/blog'}>
+				<a sveltekit:prefetch href="/blog">Blog</a>
 			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
+
+
+			<!-- <li class:active={$page.url.pathname === '/todos'}>
 				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li>
+			</li> -->
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
@@ -40,7 +44,7 @@
 	}
 
 	.corner {
-		width: 3em;
+		width: 9em;
 		height: 3em;
 	}
 
@@ -53,9 +57,10 @@
 	}
 
 	.corner img {
-		width: 2em;
-		height: 2em;
+		width: 3em;
+		height: 3em;
 		object-fit: contain;
+		border-radius: 20px;
 	}
 
 	nav {

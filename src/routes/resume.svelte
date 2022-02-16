@@ -1,5 +1,12 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
+	import logo from '../lib/header/YoungNate.png';
+	// import logo from '../lib/icons/YoungNate.png';
+	// import logo from '../lib/icons/YoungNate.png';
+	// import logo from '../lib/icons/YoungNate.png';
+	// import logo from '../lib/icons/YoungNate.png';
+	// import logo from '../lib/icons/YoungNate.png';
+
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -17,212 +24,488 @@
 <svelte:head>
 	<title>About</title>
 </svelte:head>
-<div class="resume">
-<div class="content">
-	<h1>Nathaniel Blazier</h1>
+
+<div class="resumeContainer">
+
+
+	<div class="resumeUserContainer">
+		<a href="/"><img src={logo} class="userImage" alt="Nate" /></a>
+		<div class="userName">Nate Blazier</div> 
+		<div class='emailText'>eMAIL: nblazier@gmail.com</div> 
+		
+			<!-- <svg  class="socialContainer"
+				xmlns="http://www.w3.org/2000/svg"
+  				viewBox="0 0 30 22"
+  				color="green"
+  				stroke= var(--text-color)
+				fill="none"
+				stroke-width="0"
+				height = "20%"
+				width ="6%"
+			>
+  				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+			</svg> -->
+		
+
+
+	</div>
+
+	<div class="currentInfoContainer">
+		"I currently manage a team of automation test engineers.  We work with all our (SCRUM) Product/Dev teams to bring automation test coverage to all our Web products. 
+		Many of the products have been developed over the past 10 - 20 years. Keywords of the products could be (multi-environment, multi-tenant, multi-language, and heavily-customizable).  I am self-driven, honest, and I care about my work."
+	</div>
+
+		<div class="resumeCategoryContainer">
+
+
+			<div class="resumeCategoryHeader">
+				Skills:
+			</div>
 
 
 
-<h2>
-Work Experience:
-</h2>
----------------------------------------------
-<div class="job">
-<p>
-	INXPO > West Corporation > Intrado > Notified - currently owned by Apollo Global. - Chicago, IL - Current.
-</p>
-<p>
-	I currently manage a team of automation test engineers. We work with all our (SCRUM) Product/Dev teams to manage the automation test projects. Our team worked on automation testing coverage for the company’s multi-environment, multi-tenant, multi-language, and heavily customizable products. These products have been around for 10-20 years… So, there was quite a bit to catch up on. We have just finished getting most of our products in a well covered state. The company is seeing very positive results in issue reduction, time needed for testing, along with a massive increase of coverage which was unable to be done before.  This has helped the company realize the need to place more effort into having automation testing within the individual SCRUM teams. 
-</p>
-<p>
-Along with building and maintaining older products, we are also working on planning for new products where automation testing is to be worked on inline with these newly developed products. This requires more team members within the individual scrum teams to develop their automation testing skills... I also am building training programs for individual team members, Building automation tests, while I personally learn new automation tools.
-</p>
-<p>
-Sr Software Quality Automation Test Engineer
-</p>
-<p>
-Built Automation software testing frameworks for Multiple 10 - 20 yr old products using:
-</p>
 
-<ul class="jobtools">
-<li>Selenium</li>
-<li>Java</li>
-<li>Maven </li>
-<li>TestNG</li>
-<li>Microsoft TFS Repo/project tracking tool.</li>
-<li>Jenkins</li>
-<li>GitHub Repository</li>
-<li>API tests with RestAssured</li>
-</ul>
+			
+			
+			<div class="jobContainer">
+				<div class="resumeCategoryHeader">
+					Work Experience:
+				</div>
 
-<ul class="jobtools">
-<li>Currently working on Automation testing frameworks for the future and newly started products.</li> 
-<li>Microsoft Playwright</li>
-<li>Puppeteer</li>
-<li>typescript/Javascript</li>
-<li>Node</li>
-<li>js</li>
-<li>SuperTest - API testing.</li>
-</ul>
+				<div class="companyHeader">
+					<div class="companyInfo">Notified</div>
+					<div class="companyInfoDates">May 2008 - Current.</div>
+				</div>
+				
+				<div class="companyDescription">
+				Owned by Apollo Global - INXPO > West Corporation > Intrado > now Notified.
+				Notified is the world's only communications cloud for events, public relations, and investor relations.
 
-<ul class="Tasks">
-<li>Managed  sharepoint Wiki for all of the members of the QA team.</li>
-<li>Confluence Documentation.</li>
-<li>Create Help Videos. </li>
-</ul>
+				</div>
+				<ul>
+					<div class="jobTitle">
+						Sr Software Quality Automation Test Engineer
+					</div>
+					<div class="jobDates">	
+					January 2018 - Current 
+					</div>
+
+					<div class="jobDescription">
+
+						<ul class="jobtools">
+							<li>Manage a core team of 5 UI and API Automation Test Engineers.</li>
+							<li>Support all other scrum teams towards automated testing coverage goals.</li>
+							<li>Help support Performance testing teams on product knowledge.</li>
+							<li>Train current manual tester to develop automation skills.</li>
+							<li>Code automation testing scripts.</li>
+							<li>Prioritize and Assign work to other teammembers.</li>
+							<li>Build Automation Frameworks.
+								
+								<ul>
+									<div class="tools">
+										<br>
+										<div class="tags">
+											<div class="tag primary">Selenium</div>
+											<div class="tag primary">RestAssured</div>
+											<div class="tag primary">Java</div>
+											<div class="tag primary">Maven</div>
+											<div class="tag primary">TestNG</div>
+											<div class="tag primary">Jenkins</div>
+										</div>
+									</div>
+<br>
+									<div class="tools">
+										<div class="tags">
+											<div class="tag primary">Microsoft Playwright</div>
+											<div class="tag primary">SuperTest API testing</div>
+											<div class="tag primary">typescript</div>
+											<div class="tag primary">Javascript</div>
+											<div class="tag primary">Node</div>
+											<div class="tag primary">Jenkins</div>
+										</div>
+									</div>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+			
 
 
- 
 
+
+			<div class="jobContainer">
+				<ul>
+					<div class="jobTitle">
+						Quality Assurance Engineer
+					</div>
+					<div class="jobDates">	
+						January 2010 - January 2018 
+					</div>
+
+					<ul>
+						<li>Work internally to assure high build quality of INXPO’s proprietary software: Webcasting XPOCAST, INXPO Virtual Events, Social Business TV, Email Publication Suite, INXPO Mobile Applications, Mobile Browser , and Data Metrics, etc.</li>
+						<li>Involved in the software development process - monitoring and improving processes, making sure all agreed-upon processes, standards, and procedures are followed.   </li>
+						<li>Work with Development, Solutions, Product Management, and Production on finding solutions to current and possible future web issues.</li>
+						<li>Manage test scenarios.</li>
+						<li>Write scripts used for training INXPO teams and INXPO clients on software uses.</li>
+						<li>Worked on custom INXPO projects with companies such as Microsoft, Cisco, Redhat, Jive, etc.</li>
+					</ul>	
+				</ul>
+			</div>
+
+			<div class="jobContainer">
+
+				<ul>
+				<div class="jobTitle">
+					Senior Associate Producer in Client Services for New Media
+				</div>
+				<div class="jobDates">	
+				May 2008 - February 2010
+				</div>
+				
+				<ul>	
+				<li>Assist Event Director in managing/Directing all aspects of building INXPO Virtual Environments for Businesses (Trade Shows, Job fairs, Virtual Office Buildings, Online Presentations, Social Communities.</li>
+				<li>Directly worked with clients such as: Cisco Systems(Cisco Live & Cisco Partner Space), GE Healthcare, Waters, Jack Morton, HSM, BG-Group, Global Spec, Highland Capital Partners, IDG, PennWell, IngramMicro, Informatica, Journal of Commerce, Shaker, ValleyForge, Motorcycle Industry and ATV Industry Magazine, UBM, and more...</li>
+			</ul>	
+			</ul>
+			</div>
+
+			<div class="jobContainer">
+
+
+				<div class="companyHeader">
+					<div class="companyInfo">Orchard View Nursing Home - Princeton, IL</div>
+					<div class="companyInfoDates">February 2008 - May 2008</div>
+				</div>
+				<div class="companyDescription">
+					Started out as a volunteer. They lost most of their workers so I took a job until they could restaff.
+				</div>
+
+				<ul>
+					<div class="jobTitle">
+						Dietary/Cook
+					</div>
+					<ul>
+						<li>Assist health-care staff in making sure residents receive nutritious good tasting food.</li>
+						<li>Following up on dietary regimens; monitoring and charting eating habits.</li>
+					</ul>
+				</ul>
+			</div>
+
+
+			<div class="jobContainer">
+
+
+				<div class="companyHeader">
+					<div class="companyInfo">Allan Odis Inc. - Chicago, IL </div>
+					<div class="companyInfoDates">January 2006 - Jan 2008</div>
+				</div>
+
+
+		
+				<div class="companyDescription">
+					Real-Estate Brokerage Condominium Management.
+				</div>
+				<ul>
+					<div class="jobTitle">
+						Property Management Operations Assistant
+					</div>
+
+				
+					<ul>
+						<li>Manage/Maintain Properties and Property Budgets.</li>
+						<li>Host Condo Association Meetings.</li>
+						<li>Involved in New Employee Hire and Training.</li>
+						<li>Handled Marketing and Administration Duties.</li>
+						<li>Maintained customers satisfaction with excellent customer service skills.</li>
+						<li>Vendor Relations.</li>
+					</ul>
+				</ul>
+			</div>
+
+
+			<div class="jobContainer">
+
+
+
+				<div class="companyHeader">
+					<div class="companyInfo">Pioneer Hi-Bred International - Princeton, IL</div>
+					<div class="companyInfoDates">Summers of 1997, 1999-2006</div>
+				</div>
+
+
+
+
+				<div class="companyDescription">
+					DuPont Pioneer, formerly Pioneer Hi-Bred is the largest U.S. producer of hybrid seeds for agriculture. They are a major producer of genetically modified organisms.
+				</div>
+			<ul>
+			<div class="jobTitle">
+				Crew Leader
+			</div>
+				<ul>
+				<li>Handled the business of moving groups towards company goals.</li>
+				<li>In charge of training and overseeing crews.</li>
+				<li>Readied and maintained work areas for crews.</li>
+				</ul>
+				<div class="jobTitle">
+				Research Assistant
+			</div>	
+			<ul>	
+				<li>Dealt with the experimental genetic manipulation of different corn hybrids.</li>
+				<li>Performed inoculation experiments (Organic, Chemical, Biological).</li>
+				<li>Responsible for data collection.</li>
+				<li>Prepared workspaces/experiment zones for the Scientists. </li>
+			</ul>
+			</ul>
+			</div>
+
+		</div>
+
+
+
+		<div class="resumeCategoryContainer">
+			<div class="resumeCategoryHeader">
+				Education:
+			</div>
+
+			<div class="companyHeader">
+				<div class="companyInfo">Carthage College, Kenosha WI </div>
+			</div>
+
+
+				<ul>
+					<li>Bachelor of Arts, Business Administration & Marketing, May 2007.</li>
+					<li>Degrees with additional focuses - Economics, Computer Graphic Design, and IMS.</li>
+					<li>Economic Educational Study Tours - East Africa, Thailand, and Japan.</li>
+					<li>Awarded Carthage Business Fellowship.  </li>
+				</ul>
+
+
+
+				<div class="companyHeader">
+					<div class="companyInfo">Work while at Carthage College - Kenosha, WI </div>
+				</div>
+								   
+
+				<ul>
+				<div class="jobTitle">Resident Assistant</div>
+				<div class="jobDates">August 2005 - May 2006</div> 
+				<ul>
+				<li>Aided in building a community among students.</li>
+				<li>Introduced residents to outside/inside events, opportunities and programs.</li>
+				<li>Provided paths for residents to follow during attendance.</li>
+				<li>Handled issues that appeared in resident's lives.</li>
+				</ul>
+				</ul>
+
+				<ul>
+				<div class="jobTitle">Website Administrator - Carthage College Paper “The Current”.</div>
+				<div class="jobDates">August 2005 - May 2006</div> 
+				<ul>
+				<li>Maintained Website for the college paper “The Current”.</li>
+				<li>Handled The Graphic Design and Maintenance.</li>
+				</ul>	
+				</ul>
+
+				<ul>
+				<div class="jobTitle">Allan Odis Inc. - condo management. In chicago. </div>
+			</ul>
+		</div>
+
+		
+		<div class="resumeCategoryContainer">
+			<div class="resumeCategoryHeader">
+				Activities and Societies:
+				
+			</div>
+				International Friendship Society, Resident Assistant, German club, Track (Pole Vault).
+		</div>
+
+
+		<div class="resumeCategoryContainer">
+			<div class="resumeCategoryHeader">
+				Awards:
+				
+			</div>
+		
+
+		Tadd Metzger Award, American Legion Award, Daughters of American Revolution Award, Most Hole in ones at 2014 M.C. Mini Masters.
+		</div>
+	
 </div>
 
 
 
-
-
-
-
-<div class="job">
-  
-INXPO - Chicago, IL	      				   January 2010 - Current 
-Industry leader in webcasting and online events, utilizing video and social media tools to engage global audiences.
-Quality Assurance Engineer
-Work internally to assure high build quality of INXPO’s proprietary software: Webcasting XPOCAST, INXPO Virtual Events, Social Business TV, Email Publication Suite, INXPO Mobile Applications, Mobile Browser , and Data Metrics, etc.
-Involved in the software development process - monitoring and improving processes, making sure all agreed-upon processes, standards, and procedures are followed.   
-Work with Development, Solutions, Product Management, and Production on finding solutions to current and possible future web issues.
-Manage test scenarios.
-Write scripts used for training INXPO teams and INXPO clients on software uses.
-Worked on custom INXPO projects with companies such as Microsoft, Cisco, Redhat, Jive, etc.
-</div>
-
-<div class="job">
-
-Inxpo - Chicago, IL	 			                   May 2008 - February 2010
-Industry leader in webcasting and online events, utilizing video and social media tools to engage global audiences.
-Senior Associate Producer in Client Services for New Media
-Assist Event Director in managing/Directing all aspects of building INXPO Virtual Environments for Businesses (Trade Shows, Job fairs, Virtual Office Buildings, Online Presentations, Social Communities.
-Directly worked with clients such as: Cisco Systems(Cisco Live & Cisco Partner Space), GE Healthcare, Waters, Jack Morton, HSM, BG-Group, Global Spec, Highland Capital Partners, IDG, PennWell, IngramMicro, Informatica, Journal of Commerce, Shaker, ValleyForge, Motorcycle Industry and ATV Industry Magazine, UBM, and more...
-
-</div>
-
-<div class="job">
-Orchard View Nursing Home - Princeton, IL           February 2008 - May 2008
-Dietary/Cook
-Assist health-care staff in making sure residents receive nutritious good tasting food.
-Following up on dietary regimens; monitoring and charting eating habits.  
-</div>
-
-
-<div class="job">
-Allan Odis Inc. - Chicago, IL 				January 2007 - Jan 2008
-Real-Estate Brokerage Condominium Management
-Property Operations Management Assistant
-Manage/Maintain Properties and Property Budgets
-Host Condo Association Meetings
-Involved in New Employee Hire and Training
-Handled Marketing and Administration Duties
-Maintained customers satisfaction with excellent customer service skills
-Vendor Relations
-
-</div>
-
-
-<div class="job">
-Pioneer Hi-Bred International - Princeton, IL   Summers of 1997, 1999-2006
-DuPont Pioneer, formerly Pioneer Hi-Bred is the largest U.S. producer of hybrid seeds for agriculture. They are a major producer of genetically modified organisms.
-Crew Leader
-Handled the business of moving groups towards company goals.
-In charge of training and overseeing crews. 
-Readied and maintained work areas for crews.
-Research Assistant
-Dealt with the experimental genetic manipulation of different corn hybrids
-Performed inoculation experiments (Organic, Chemical, Biological)
-Responsible for data collection
-Prepared workspaces/experiment zones for the Scientists 
-
-</div>
-
-
-
-
-Education:
----------------------------------------------
-
-Carthage College, Kenosha WI
-     Bachelor of Arts, Business Administration & Marketing, May 2007
-       - Degrees with additional focuses - Economics, Computer Graphic Design, and IMS.
-       - Economic Educational Study Tours - East Africa, Thailand, and Japan.
-       - Awarded Carthage Business Fellowship.  
-
-
-Work while at Carthage College - Kenosha, WI 				   August 2005 - May 2006 
-
-Resident Assistant
-Aided in building a community among students.
-Introduced residents to outside/inside events, opportunities and programs.
-Provided paths for residents to follow during attendance.
-Handled issues that appeared in resident’s lives.
-Carthage College Paper “The Current”  Website Administrator 
-Maintained Website for the college paper “The Current”.
-Handled The Graphic Design and Maintenance.
-Allan Odis Inc. - condo management. In chicago. 
-
-Activities and Societies:
----------------------------------------------
-International Friendship Society, Resident Assistant, German club, Track (Pole Vault).
-
-
-Awards:
----------------------------------------------
-
-Tadd Metzger Award, American Legion Award, Daughters of American Revolution Award, Most Hole in ones at 2014 M.C. Mini Masters.
-
-</div>
-</div>
-
-
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
-	</p>
 
 
 <style>
-	.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
+
+
+
+
+.resumeUserContainer{
+	display: flex;
+	border-bottom: 1px solid;
+	align-items: center;
+	margin-bottom: 8px;
+	flex-flow: row wrap;
+
+
+}
+
+.resumeUserContainer .userName{
+	padding-left: 16px;
+	font-family: var(--font-family-header);
+	font-size: 2rem;
+
+
+}
+
+.emailText{
+	font-size: .8rem;
+
+position: absolute;
+	right: 0;
+	padding-right: 15px;
+	padding-TOP: 35px;
+	
+}
+
+.resumeUserContainer .socialContainer{
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+	
+	
+}
+
+.userImage{
+width: 4em;
+height: 4em;
+object-fit: contain;
+border-radius: 20px;
+border-radius: 24px;
+filter: grayscale(100%);
+transition: 1s;
+flex: 1;
+
+
+}
+.companyHeader{
+	display: grid;
+grid-template-columns: auto 1fr -webkit-max-content;
+grid-template-columns: auto 1fr max-content;
+grid-template-areas: "company company company-time" "period period period";
+align-items: baseline;
+}
+
+.jobDates{
+	font-size: 12px;
+}
+
+.companyInfoDates{
+	position: absolute;
+  	right: 0;
+	font-size: 12px;
+	padding: 0px 20px;
+}
+
+.tags{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	flex-wrap: wrap;
+}
+
+
+.tag{
+
+background: var(--primary-color);
+color: var(--secondary-color);	
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+padding: 5px 15px;
+border-radius: 10px;
+font-weight: 550;
+font-size: .60rem;
+width: fit-content;
+white-space: nowrap;
+	
+}
+
+
+	.resumeContainer {
+		background-color: var(--secondary-color);
+		box-shadow: rgb(39 44 49 / 60%) 8px 14px 38px, rgb(39 44 49 / 30%) 1px 3px 8px;
+
+		color: var(--text-color);
+		
+
+    	font-family: Lato, sans-serif;
+    	font-size: 16px;
+	
+		max-width: 210mm;
+
+		margin: 20px auto;
+		padding: 1rem;
+
+		border-radius: 10px;
+
+   	 	display: grid;
+  		position: relative;
+		line-height: 1.8;
 	}
 
 
-	.resume {
-    margin: 20px auto;
-    max-width: 210mm;
-    box-shadow: rgb(39 44 49 / 60%) 8px 14px 38px, rgb(39 44 49 / 30%) 1px 3px 8px;
-	padding: 30px 20px;
-   
+	.currentInfoContainer{
+		background-color: var(--primary-color);
+		margin: 20px auto;
+		padding: 1rem;
+		line-height: 1.8;
+		border-radius: 10px;
+		font-style: italic;
 
-	border-radius: 10px;
+	}
 
-    display: grid;
-    color: var(--text-color);
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    background-color: #fff;
-    position: relative;
-}
+	.companyInfo{
+		font-family: var(--font-family-header);
+		font-size: 1.2rem;
+		font-style: italic;
+	}
+
+
+	.companyDescription{
+		font-size: .80rem;
+	}
+
+	.jobContainer {
+		/* width: 100%; */
+		/* max-width: var(--column-width); */
+		margin: var(--column-margin-top) auto 0 auto;
+		color: var(--text-color);
+		
+	}
+
+	.jobTitle{
+		font-weight: bolder;
+		
+		
+	}
+
+	.resumeCategoryHeader{
+		display: flex;
+		border-bottom: 1px solid;
+		align-items: baseline;
+		margin-bottom: 8px;
+		padding-top: 8px;
+		font-size: 1.5rem;
+	}
+
+
+
 </style>

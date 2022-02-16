@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p><a href="https://www.reddit.com/r/ContagiousLaughter/top/?t=month">Get Some Happiness!!!</a></p>
 </footer>
 
 <style>
