@@ -155,7 +155,7 @@
 			
 		</a>
 
-		<a class="card clickable" href="/">
+		<a class="card clickable" href="/blog/PowerShell">
 			<div class="image">
 				
 						<img src="https://d1rytvr7gmk1sx.cloudfront.net/wp-content/uploads/2020/09/powershell.jpg" alt="Cover Image" loading="lazy" decoding="async" class="picture"> 
@@ -163,9 +163,9 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
-							<div class="note">20 min read</div> 
-							<div class="text">An overview of the experience I've had using these amazing projects.</div>
+							<div class="title">Start Learning Powershell</div> 
+							<div class="note">notes</div> 
+							<div class="text">I wanted to learn powershell enough. These are my notes to always go back and glance over.</div>
 						
 							<div class="footer">
 								<div class="tags">
