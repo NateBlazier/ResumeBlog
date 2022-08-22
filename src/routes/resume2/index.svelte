@@ -1,6 +1,6 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
-	import logo from '../lib/header/YoungNate.png';
+	import logo from '../../lib/header/YoungNate.png';
 	// import logo from '../lib/icons/YoungNate.png';
 	// import logo from '../lib/icons/YoungNate.png';
 	// import logo from '../lib/icons/YoungNate.png';
