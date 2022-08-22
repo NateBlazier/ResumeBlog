@@ -90,6 +90,19 @@ If you want to see all the commands.
 <pre><code>{`Get-Command | more`}</code></pre>
 <pre><code>{`get-help get-command - ShowWindow`}</code></pre>
 
+ABOUT PAGES
+<pre><code>{`Help about_*`}</code></pre>
+
+-Category (finger smashing with show you an error of what you can do.)
+<pre><code>{`Help -Category sdfsdf`}</code></pre>
+
+-Category (finger smashing with show you an error of what you can do.)
+<pre><code>{`get-service | ConvertTo-html -Property name,status | out-file c:\test.htm | c:\test.htm `}</code></pre>
+
+-whatif
+
+
+
 <div class="sectionTitle">Formats</div>
 
 <pre><code>{` 
@@ -318,6 +331,13 @@ Wrire-Host "Get-Location | .\PowershellNateNotes.ps1"
 
  `}</code></pre>
 
+
+
+<div class="sectionTitle">Statement Separator</div>
+to run one command after another use semicolons
+<pre><code>{` 
+ cls ; get-help about_Eventlogs
+`}</code></pre>
 
 
 

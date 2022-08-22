@@ -40,8 +40,8 @@
 			</div>
 				<div class="body">
 					<div class="content">
-						<div class="title">How I built a blog with Svelte and SvelteKit</div> 
-						<div class="note">20 min read</div> 
+						<div class="title">Lorem ipsum dolor sit amet.</div> 
+						<div class="note">note</div> 
 						<div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, aut aliquid libero ad ipsa quo fugit inventore unde. Consequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.</div>
 					</div>
 					
@@ -63,8 +63,8 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
-							<div class="note">20 min read</div> 
+							<div class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, autem!</div> 
+							<div class="note">notes</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
 					 
@@ -88,7 +88,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi animi fugit facilis.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -113,7 +113,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -138,7 +138,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -204,7 +204,7 @@
 			</div>
 				<div class="body">
 					<div class="content">
-						<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+						<div class="title">Lorem ipsum dolor sit.</div> 
 						<div class="note">20 min read</div> 
 						<div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, aut aliquid libero ad ipsa quo fugit inventore unde. Consequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.</div>
 					</div>
@@ -227,7 +227,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -252,7 +252,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -277,7 +277,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -302,7 +302,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						</div>
@@ -327,7 +327,7 @@
 				<div class="body">
 					
 						<div class="content">
-							<div class="title">How I built a blog with Svelte and SvelteKit</div> 
+							<div class="title">Lorem ipsum dolor sit.</div> 
 							<div class="note">20 min read</div> 
 							<div class="text">An overview of the experience I've had using these amazing projects.</div>
 						
