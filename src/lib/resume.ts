@@ -45,6 +45,7 @@ export interface Contact {
 	phone: string;
 	linkedIn: string;
 	github: string;
+	downloadableResumeLink: string;
 }
 
 export interface Resume {
@@ -61,7 +62,9 @@ export const resume: Resume = {
 		phone: '+1-321-252-xxxx',
 		email: 'nblazier@gmail.com',
 		linkedIn: '',
-		github: ''
+		github: '',
+		downloadableResumeLink:
+			'https://drive.google.com/file/d/1os3lNY1M6hZ_FVvWwlMEVUDkVtEuCQcG/view?usp=sharing'
 	},
 
 	summary: `"I currently manage a team of automation test engineers. We work with all our (SCRUM) Product/Dev teams to bring automation test coverage to all our Web products. Many of the products have been developed over the past 10 - 20 years. Keywords of the products could be (multi-environment, multi-tenant, multi-language, and heavily-customizable). I am self-driven, honest, and I care about my work."`,

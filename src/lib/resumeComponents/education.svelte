@@ -1,7 +1,11 @@
 <script lang="ts">
+  
+  //components
   import Section from '$lib/resumeComponents/section.svelte';
+  
+  //data
   import type {Education} from '$lib/resume';
-
+  
   export let education: Education[];
 </script>
 
