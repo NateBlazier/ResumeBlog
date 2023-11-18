@@ -13,6 +13,7 @@
       {#each blogCard as {title, imagePath, link, readTime, content, tags, postTime} (title)}
       <a class="card clickable" href={link}>
         <div class="image">
+          <!-- svelte-ignore a11y-img-redundant-alt -->
           <img src={imagePath} alt="Cover Image" loading="lazy" decoding="async" class="picture"> 
         </div>
           <div class="body">
@@ -108,9 +109,9 @@ height: min(100%,350px);
 		grid-column: span 10;
 	}
 
-	h1 {
+	/* h1 {
 		width: 100%;
-	}
+	} */
 
 	/* .welcome {
 
