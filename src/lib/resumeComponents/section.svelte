@@ -21,9 +21,9 @@
     flex: 1 1 0px;
   }
 
-  .header {
+  /* .header {
     margin-right: auto;
-  }
+  } */
 
   .header-wrapper {
     display: flex;

@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 
 	export const prerender = true;
     import { onMount } from 'svelte';
@@ -266,8 +266,8 @@ function setCorrectClass(bIsCorrect) {
                         =
                         <output name="x" for="a b"></output>
                         <br><br>
-                        <!-- <input type="submit"> -->
-                    </form>
+            -->            <!-- <input type="submit"> -->
+                    <!-- </form>
                 </div>
             </div>
         
@@ -307,7 +307,7 @@ function setCorrectClass(bIsCorrect) {
                 </div>
             </div>
     
-        </div>
+        </div> -->
     
     
         <!-- iframes
@@ -323,9 +323,9 @@ function setCorrectClass(bIsCorrect) {
     
     
     
-    
+<!--     
         <script src="/AutomationQuiz.js"></script>
-    </body>
+    </body> 
     
   
 
@@ -335,10 +335,10 @@ function setCorrectClass(bIsCorrect) {
 	
 
 </section>
-
+ -->
 
 <style>
-
+/*
 body{
     background-color: #20201e;
 }
@@ -377,7 +377,7 @@ h1{
  #html5InputContainer{
       
 } */
-
+/*
 
   .GridContainer h1{
     grid-column: 1 / span 3;

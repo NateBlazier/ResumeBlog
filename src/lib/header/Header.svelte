@@ -48,7 +48,7 @@
 		height: 3em;
 	}
 
-	.corner a {
+	/* .corner a {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -61,7 +61,7 @@
 		height: 3em;
 		object-fit: contain;
 		border-radius: 20px;
-	}
+	} */
 
 	nav {
 		display: flex;

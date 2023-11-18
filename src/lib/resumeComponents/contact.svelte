@@ -65,13 +65,11 @@ position: absolute;
 	
 }
 
-.resumeUserContainer .socialContainer{
+/* .resumeUserContainer .socialContainer{
 	position: absolute;
 	right: 0;
 	padding-right: 10px;
-	
-	
-}
+} */
 
 .userImage{
 width: 4em;

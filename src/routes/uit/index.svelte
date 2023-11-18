@@ -179,9 +179,11 @@ background-color: #d6c9b9;
 padding: 2rem;
 }
 
+/*
 .squareComplete{
     background-color: #489533;
 }
+*/
 
 #container{
     margin: 0 auto;

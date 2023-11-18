@@ -91,13 +91,13 @@ height: min(100%,350px);
 
 
 
-.quote{
+/* .quote{
 	    font-family: Georgia,serif;
     color: var(--accent-color);
     font-size: 30px;
     line-height: 1em;
-    /* margin: 0 0 0 60px; */
-}
+    
+} */
 
 .picture{
 	width: 100%;
@@ -112,7 +112,7 @@ height: min(100%,350px);
 		width: 100%;
 	}
 
-	.welcome {
+	/* .welcome {
 
 	color: var(--text-color);
     display: block;
@@ -129,7 +129,7 @@ height: min(100%,350px);
 		height: 100%;
 		top: 0;
 		display: block;
-	}
+	} */
 
 	.grid-container {
 		width: 100%;
@@ -138,7 +138,7 @@ height: min(100%,350px);
   		grid-gap: 20px;
 	}
 
-.topBox{
+/* .topBox{
 	background: var(--secondary-color);
     box-shadow: rgb(39 44 49 / 60%) 8px 14px 38px, rgb(39 44 49 / 30%) 1px 3px 8px;
     color: var(--text-color);
@@ -147,12 +147,12 @@ height: min(100%,350px);
     position: relative;
     overflow: hidden;
     width: 100%;
-    /* display: flex; */
+ 
     flex-direction: row;
     flex-wrap: wrap;
 	margin-bottom: 20px;
 
-}
+} */
 
 .card.clickable {
   cursor: pointer;
