@@ -33,7 +33,7 @@ export const blogLandingPageData: BlogLandingPageData = {
 		{
 			title: 'Java Projects',
 			imagePath: 'https://wallpapercave.com/wp/wp7250087.jpg',
-			link: '$lib/components_UIAutomationTest/AutomationUITest.html',
+			link: '',
 			readTime: '20 min',
 			content: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, aut aliquid libero ad ipsa quo fugit inventore unde. Consequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
 			tags: ['eee', 'ee'],
