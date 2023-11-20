@@ -41,24 +41,6 @@ export const blogLandingPageData: BlogLandingPageData = {
 			postTime: 'Jul 8, 2021, 11:11:23 PM'
 		},
 		{
-			title: 'git and github',
-			imagePath: 'https://miro.medium.com/max/1400/1*9PnPjPI65fGwLiMfluVLrw.jpeg',
-			link: '/',
-			readTime: '20 min',
-			content: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, aut aliquid libero ad ipsa quo fugit inventore unde. Consequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
-			tags: ['eee', 'ee'],
-			postTime: '3/7/2022, 4:11:58 PM'
-		},
-		{
-			title: 'Docker',
-			imagePath: 'https://www.cloudsavvyit.com/p/uploads/2021/04/075c8694.jpeg',
-			link: '/',
-			readTime: '20 min',
-			content: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, aut aliquid libero ad ipsa quo fugit inventore unde. Consequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
-			tags: ['eee', 'ee'],
-			postTime: '3/7/2022, 4:11:58 PM'
-		},
-		{
 			title: 'Powershell',
 			imagePath: 'https://www.techrepublic.com/wp-content/uploads/2020/09/powershell.jpg',
 			link: '/blog/PowerShell',
@@ -68,11 +50,40 @@ export const blogLandingPageData: BlogLandingPageData = {
 			postTime: '3/7/2018, 4:11:58 PM'
 		},
 		{
+			title: 'Svelt ',
+			imagePath: 'https://svelte.deepwebworks.com/svelte-kit-machine.jpg',
+			link: 'https://kit.svelte.dev/',
+			readTime: '20 min',
+			content: `This Resume WebApp was built to learn and test out svelte and sveltekit https://kit.svelte.dev/. `,
+			tags: ['Svelte', 'SvelteKit'],
+			postTime: '3/7/2022, 4:11:58 PM'
+		},
+
+		{
+			title: 'git and github',
+			imagePath: 'https://miro.medium.com/max/1400/1*9PnPjPI65fGwLiMfluVLrw.jpeg',
+			link: '/',
+			readTime: '20 min',
+			content: `This is Currenly just a place holder.`,
+			tags: ['eee', 'ee'],
+			postTime: '3/7/2022, 4:11:58 PM'
+		},
+		{
+			title: 'Docker',
+			imagePath: 'https://www.cloudsavvyit.com/p/uploads/2021/04/075c8694.jpeg',
+			link: '/',
+			readTime: '20 min',
+			content: `This is Currenly just a place holder.`,
+			tags: ['eee', 'ee'],
+			postTime: '3/7/2022, 4:11:58 PM'
+		},
+
+		{
 			title: 'Java Projects',
 			imagePath: 'https://wallpapercave.com/wp/wp7250087.jpg',
 			link: '/',
 			readTime: '20 min',
-			content: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, aut aliquid libero ad ipsa quo fugit inventore unde. Consequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
+			content: `fugit inventore undequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
 			tags: ['eee', 'ee'],
 			postTime: '3/7/2022, 4:11:58 PM'
 		}
