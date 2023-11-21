@@ -24,7 +24,7 @@ export const blogLandingPageData: BlogLandingPageData = {
 			title: 'Selenium',
 			imagePath:
 				'https://blog.autify.com/static/0b1fa7c84cc543a52641d6395ad328c0/553fd/selenium-logo.png',
-			link: 'https://www.youtube.com/watch?v=b8xDPbm9IZY&list=PL_VFqfaSA4Umpwjo_qNYyPLAS4kqqO70K',
+			link: 'https://www.youtube.com/playlist?list=PL_VFqfaSA4Umpwjo_qNYyPLAS4kqqO70K',
 			readTime: '20 min',
 			content: `This is a youtube playlist I created to help setup selenium projects`,
 			tags: ['selenium', 'java', 'Eclipse', 'git', 'TestNG'],
@@ -32,13 +32,22 @@ export const blogLandingPageData: BlogLandingPageData = {
 		},
 
 		{
-			title: 'Playwright',
+			title: 'Microsoft Playwright',
 			imagePath: 'https://miro.medium.com/max/1400/1*wrRk5Ut1L7mmbaFLGELcIw.png',
-			link: 'https://www.youtube.com/watch?v=dz07r-SaTWo&list=PL_VFqfaSA4UlNiN_xbxBjgSvBTNda27oW',
+			link: 'https://www.youtube.com/playlist?list=PL_VFqfaSA4UlNiN_xbxBjgSvBTNda27oW',
 			readTime: '20 min',
 			content: `Youtube playlist to get started on playwright... read the documentation.`,
 			tags: ['NodeJS', 'Playwright'],
 			postTime: 'Jul 8, 2021, 11:11:23 PM'
+		},
+		{
+			title: 'Git and Github',
+			imagePath: 'https://miro.medium.com/max/1400/1*9PnPjPI65fGwLiMfluVLrw.jpeg',
+			link: 'https://www.youtube.com/playlist?list=PL_VFqfaSA4Ul_FxDKeO44sYNdKsLpv1Fw',
+			readTime: '',
+			content: `Getting Started with git and github.`,
+			tags: ['git', 'github', 'VSCode'],
+			postTime: 'May 23, 2021, 7:11:58 AM'
 		},
 		{
 			title: 'Powershell',
@@ -50,22 +59,12 @@ export const blogLandingPageData: BlogLandingPageData = {
 			postTime: '3/7/2018, 4:11:58 PM'
 		},
 		{
-			title: 'Svelt ',
+			title: 'Svelte',
 			imagePath: 'https://svelte.deepwebworks.com/svelte-kit-machine.jpg',
 			link: 'https://kit.svelte.dev/',
 			readTime: '20 min',
 			content: `This Resume WebApp was built to learn and test out svelte and sveltekit https://kit.svelte.dev/. `,
 			tags: ['Svelte', 'SvelteKit'],
-			postTime: '3/7/2022, 4:11:58 PM'
-		},
-
-		{
-			title: 'git and github',
-			imagePath: 'https://miro.medium.com/max/1400/1*9PnPjPI65fGwLiMfluVLrw.jpeg',
-			link: '/',
-			readTime: '20 min',
-			content: `This is Currenly just a place holder.`,
-			tags: ['eee', 'ee'],
 			postTime: '3/7/2022, 4:11:58 PM'
 		},
 		{
