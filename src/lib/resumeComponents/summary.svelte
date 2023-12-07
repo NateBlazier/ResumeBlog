@@ -9,7 +9,7 @@
 <style lang="postcss">
 
   section{
-		background-color: var(--primary-color);
+		background-color: #6d6d6d;
 		margin: 20px auto;
 		padding: 1rem;
 		line-height: 1.8;

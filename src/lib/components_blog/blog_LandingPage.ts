@@ -15,7 +15,7 @@ export interface BlogLandingPageData {
 }
 
 export const blogLandingPageData: BlogLandingPageData = {
-	title: `blog`,
+	title: `Help Guides`,
 
 	quote: `"I will try to fill in the knowledge gaps to have you on your way. "`,
 
