@@ -61,30 +61,40 @@ export const blogLandingPageData: BlogLandingPageData = {
 		{
 			title: 'Svelte',
 			imagePath: 'https://svelte.deepwebworks.com/svelte-kit-machine.jpg',
-			link: 'https://kit.svelte.dev/',
+			link: '',
 			readTime: '20 min',
 			content: `This Resume WebApp was built to learn and test out svelte and sveltekit https://kit.svelte.dev/. `,
 			tags: ['Svelte', 'SvelteKit'],
 			postTime: '3/7/2022, 4:11:58 PM'
 		},
 		{
-			title: 'Java Projects',
-			imagePath: 'https://wallpapercave.com/wp/wp7250087.jpg',
-			link: '/',
+			title: 'Java',
+			imagePath:
+				'https://www.jrebel.com/sites/default/files/image/2020-05/image-blog-revel-top-java-tools.jpg',
+			link: '',
 			readTime: '20 min',
-			content: `fugit inventore undequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
-			tags: ['eee', 'ee'],
+			content: ``,
+			tags: ['Java', 'Selenium', 'RestAssured'],
 			postTime: '3/7/2022, 4:11:58 PM'
 		},
 		{
 			title: 'Docker',
 			imagePath:
 				'https://www.turing.com/blog/wp-content/uploads/2021/11/How-You-Can-Use-Docker-to-Test-and-Deploy-Web-Applications-1-e1637249944419.jpg',
-			link: '/',
+			link: '',
 			readTime: '20 min',
 			content: `This is Currenly just a place holder.`,
 			tags: ['eee', 'ee'],
 			postTime: '3/7/2022, 4:11:58 PM'
+		},
+		{
+			title: 'React',
+			imagePath: 'https://tusharf5.com/assets/header.bfa5b8b6.png',
+			link: '',
+			readTime: '20 min',
+			content: `Currently Building a React Web Application intereacting with another API I created for tounaments.`,
+			tags: ['React', 'Storybook', 'MongoDB', 'Express', 'NodeJs', 'Docker'],
+			postTime: '6/13/2024, 1:45:00 PM'
 		}
 	]
 };

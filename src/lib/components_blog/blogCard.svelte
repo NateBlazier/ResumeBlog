@@ -65,10 +65,12 @@
 
 .grid-container > :nth-child(6n+3) {
   grid-column: span 2;
+  
 }
 
 .grid-container > :nth-child(6n+4) {
   grid-column: span 2;
+  
 }
 
 .grid-container > :nth-child(6n+5) {
@@ -80,12 +82,12 @@
   display: flex;
   flex-wrap: nowrap;
   position: relative;
+  height: 21em
   
 
 }
 
 .grid-container > :nth-child(6n+6) .image {
-
 flex: 1 0 max(50%,330px);
 height: min(100%,350px);
 }
