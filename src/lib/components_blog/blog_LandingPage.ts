@@ -68,21 +68,21 @@ export const blogLandingPageData: BlogLandingPageData = {
 			postTime: '3/7/2022, 4:11:58 PM'
 		},
 		{
-			title: 'Docker',
-			imagePath: 'https://www.cloudsavvyit.com/p/uploads/2021/04/075c8694.jpeg',
-			link: '/',
-			readTime: '20 min',
-			content: `This is Currenly just a place holder.`,
-			tags: ['eee', 'ee'],
-			postTime: '3/7/2022, 4:11:58 PM'
-		},
-
-		{
 			title: 'Java Projects',
 			imagePath: 'https://wallpapercave.com/wp/wp7250087.jpg',
 			link: '/',
 			readTime: '20 min',
 			content: `fugit inventore undequuntur perferendis aperiam corporis quasi, quos exercitationem aut fuga tempore dolorum porro.`,
+			tags: ['eee', 'ee'],
+			postTime: '3/7/2022, 4:11:58 PM'
+		},
+		{
+			title: 'Docker',
+			imagePath:
+				'https://www.turing.com/blog/wp-content/uploads/2021/11/How-You-Can-Use-Docker-to-Test-and-Deploy-Web-Applications-1-e1637249944419.jpg',
+			link: '/',
+			readTime: '20 min',
+			content: `This is Currenly just a place holder.`,
 			tags: ['eee', 'ee'],
 			postTime: '3/7/2022, 4:11:58 PM'
 		}
